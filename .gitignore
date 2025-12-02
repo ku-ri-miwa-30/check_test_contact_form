@@ -1,1 +1,4 @@
-docker/mysql/data/
+docker/mysql/data/* 
+# ⇒dataディレクトリ直下のファイルをすべて無視する
+!docker/mysql/data/.gitkeep
+# ⇒!：除外 .gitkeep 無視しない。(コミット対象)
